@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Ted Alexander</title>
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
+
 <body>
     <header class="header">
         <h1>Ted Alexander</h1>
@@ -28,64 +31,135 @@
         </div>
     </header>
 
-    <section id="about me" class="about-me">
-        <h2>About Me</h2>
-        <img src="Assets/me.jpg" alt="picture of myself" height="150px" width="150px"> 
-        <p>I am a student currently enrolled in a coding bootcamp to learn the skills to become a web developer.</p>
-    </section>
 
-    <section id="work" class="work">
+    <div class="card" id="about me" style="width: 18rem;">
+
+        <img src="Assets/me.jpg" class="card-img-top" alt="picture of myself" height="300px" width="150px">
+        <div class="card-body">
+            <h5 class="card-title">About me</h5>
+            <p class="card-text">I am a student currently enrolled in a coding bootcamp through the University of
+                Rishmond to learn the skills to become a web developer.</p>
+        </div>
+    </div>
+
+
+    <section id="work">
         <h2>Examples of Previous Work:</h2>
         <br>
-        <!-- horiseon project -->
-        <div class="Horiseon">
-            <a href="https://ted-alexander.github.io/Horiseon/">
-            <img src="Assets/digital-marketing-meeting.jpg" alt="Horiseon Refactor" height="200px" width="400px">
-            </a>
-        <p>Horiseon Refactor</p>  
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/shield-logo.png" class="card-img-top" alt="SHIELD logo" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">S.H.I.E.L.D. Database</h5>
+                        <p class="card-text">Displays information on searched comic book characters using data from
+                            Superhero API</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Requires CORS Anywhere access to use.</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://cors-anywhere.herokuapp.com/corsdemo" class="card-link">CORS Anywhere</a>
+                        <a href="https://endlessashley.github.io/Shield-ID/" class="card-link">Link to the app</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/digital-marketing-meeting.jpg" class="card-img-top" alt="Horiseon Refactor"
+                        height="200px" width="400px">
+                    <div class="card-body">
+                        <h5 class="card-title">Horiseon Refactor</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="https://ted-alexander.github.io/Horiseon/" class="card-link">Link</a>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <br>
-        <div class="Shield">
-            <a href="https://endlessashley.github.io/Shield-ID/">
-            <img src="Assets/shield-logo.png" alt="SHIELD logo" height="200px" width="200px">
-            </a>
-        <p>S.H.I.E.L.D. Database</p>  
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/globe_flag.png" class="card-img-top" alt="flags and globe" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Flag Quiz</h5>
+                        <p class="card-text">A timed quiz on the flags of various nations</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://ted-alexander.github.io/quiz/" class="card-link">Link to the app</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/03-javascript-homework-demo.png" class="card-img-top" alt="Horiseon Refactor"
+                        height="200px" width="400px">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">Creates a randomized password based on given parameters.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="https://ted-alexander.github.io/password-generator/" class="card-link">Link</a>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/comingsoon3.png" class="card-img-top" alt="flags and globe" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Day Planner</h5>
+                        <p class="card-text">A listmaker that marks passed hours in real time.</p>
+                    </div>
 
-        <div class="password-generator">
-            <a href="https://ted-alexander.github.io/password-generator/">
-            <img src="Assets/03-javascript-homework-demo.png" alt="password generator" height="200px" width="400px">
-            </a>
-        <p>Password Generator</p>  
+                    <div class="card-body">
+                        <a href="https://ted-alexander.github.io/schedule/" class="card-link">Link to the app</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/comingsoon2.jpg" class="card-img-top" alt="Horiseon Refactor" height="200px"
+                        width="400px">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">Currently in development</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+
+                        <div class="card-body">
+                            <a href="https://ted-alexander.github.io/weather-dashboard/" class="card-link">Link</a>
+
+                        </div>
+                </div>
+            </div>
         </div>
 
-        <br>
-        <div class="Quiz">
-            <a href="https://ted-alexander.github.io/quiz/">
-            <img src="Assets/comingsoon1.png" alt="placeholder" height="200px" width="400px">
-            </a>
-        <p>Quiz</p>  
-        </div>
-
-
-        <br>
-
-        <div class="day=planner">
-            <a href="https://ted-alexander.github.io/schedule/"></a>
-            <img src="Assets/comingsoon2.jpg" alt="check back later!" height="100px" width="200px">
-            <p>Day Planner</p>
-        </div>
-
-        <br>
-
-        <div class="work-placeholder">
-            <a href="https://ted-alexander.github.io/weather-dashboard/"></a>
-            <img src="Assets/comingsoon3.png" alt="check back later!" height="100px" width="200px">
-            <p>Weather Dashboard</p>
-        </div>
 
         <br>
 
@@ -93,39 +167,43 @@
             <img src="Assets/comingsoon4.jpg" alt="check back later!" height="100px" width="200px">
             <p>Check back later to see more projects!</p>
         </div>
-       
+
     </section>
 
-    <section id="contact-me" class="contact-me">
+    <section id="contact-me">
         <h3>Contact Me</h3>
         <!-- (make side by side) -->
-            <div>
-                <ul>
-                    <li>
-                        <p>Email: tedalexander93@gmail.com</p>
-                    </li>
-                    <li>
-                        <p>Phone: (555) 867-5309</p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Ted-Alexander">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/theodore-alexander-65276a96/e">LinkedIn</a>
-                    </li>
-                    
-                </ul>
-            </div>
-    </section>
+        <div class="col-sm-6">
+            <div class="card" style="width: 18rem;">
 
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Email: tedalexander93@gmail.com</li>
+                    <li class="list-group-item">Phone: (555) 867-5309</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://github.com/Ted-Alexander" class="card-link">Github</a>
+                    <a href="https://www.linkedin.com/in/theodore-alexander-65276a96/" class="card-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+<br>
     <section id="resume" class="resume">
         <h3>My Resume</h3>
         <!-- the resume -->
     </section>
     <footer class="footer">
         <!--the footer is centered at the bottom of the page-->
-        <h4>Lorem Ipsum</h4>
-        <p>filler text for the footer</p>
+        <h4>---</h4>
+        <p>-----</p>
     </footer>
 </body>
+
 </html>
