@@ -2,7 +2,7 @@
 a portfolio website to showcase the skillls I've learned in class and the projects I have built using them
 
 # Deployment
-https://ted-alexander.github.io/coding-portfolio/
+https://ted-alexander.github.io/portfolio-updated/
 
 
 # Image of the site
